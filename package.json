@@ -1,0 +1,35 @@
+{
+  "author": "TokenSoft Inc",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tokensoft/ERC1404-reference-implementation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tokensoft/ERC1404-reference-implementation/issues"
+  },
+  "homepage": "https://github.com/tokensoft/ERC1404-reference-implementation#readme",
+  "license": "MIT",
+  "scripts": {
+    "test": "truffle test",
+    "test:watch": "nodemon --exec \"npm run test\"",
+    "compile": "truffle compile",
+    "migrate": "truffle migrate"
+  },
+  "dependencies": {
+    "ethereumjs-abi": "^0.6.5",
+    "ethjs": "^0.4.0",
+    "form-data": "^2.3.3",
+    "module_name": "^1.0.0",
+    "openzeppelin-solidity": "^2.0.0",
+    "truffle": "^4.1.13",
+    "web3": "github:ethereum/web3.js",
+    "web3-utils": "^1.0.0-beta.37",
+    "zeppelin-solidity": "^1.11.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-bignumber": "^3.0.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.3"
+  }
+}
